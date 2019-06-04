@@ -1,0 +1,39 @@
+{
+  "name": "gatsby-plugin-shopify-metafields",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir .",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "Vladimir Skok <skok@vova.io> (https://github.com/iamskok)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamskok/gatsby-plugin-shopify-metafields.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "gatsby-shopify-plugin",
+    "shopify",
+    "ecommerce"
+  ],
+  "bugs": {
+    "url": "https://github.com/iamskok/gatsby-plugin-shopify-metafields/issues"
+   },
+  "homepage": "https://github.com/iamskok/gatsby-plugin-shopify-metafields#readme",
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4"
+  },
+  "dependencies": {
+    "babel-preset-gatsby-package": "^0.1.4",
+    "chalk": "^2.4.2",
+    "graphql-request": "^1.8.2"
+  }
+}
